@@ -32,17 +32,6 @@ public class Solution {
     }
 
     public synchronized String getPartOfString(String string, String threadName) {
-        switch (threadName) {
-            case "1#":
-                new TooShortStringFirstThreadException();
-                break;
-            case "2#":
-
-                break;
-            default:
-
-                break;
-        }
 
         return null;
     }

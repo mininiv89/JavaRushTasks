@@ -39,12 +39,10 @@ public class CustomTree extends AbstractList<String> implements Cloneable, Seria
         return null;
     }
 
-
     @Override
     public String get(int index) {
         throw new UnsupportedOperationException();
     }
-
 
     public String set(int index, String element) {
         throw new UnsupportedOperationException();
